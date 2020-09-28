@@ -1,0 +1,339 @@
+body{ background-image: url(pista.jpg);
+
+}
+
+nav{
+    width:100% ;
+    background color: white; 
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+.inicio{
+    
+    padding-bottom :50px;
+    width: 800px;
+    height: 443px;
+    background-image: url(banner2.png);
+    border-radius: 25px;
+    
+
+}
+
+
+ .menu {
+    width: 150px;
+    font color: white;
+    padding: 6px;
+    display: inline-block;
+    background-color:white;
+    border-radius: 5px;
+    border-color: black; 
+    
+    
+     
+} 
+.txt{
+
+    color:black;
+
+    
+}
+
+footer{
+    position: fixed; /* fixo na tela, usar com moderacao */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+    text-align: center; /* alinhamento do rodape*/
+    padding-top: 1px;
+    padding-bottom: 1px; 
+    font-size: 15px;
+    }
+
+  /* --------------------------------------*/ 
+
+  .menu_um{
+    position: fixed; /* fixo na tela, usar com moderacao */
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin:0;
+    background-color:white;
+    text-align: center;
+    
+}
+
+.menu_um a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu_um a:hover{
+    background-color: gray;
+    color:white;
+}
+
+.tituloForm{
+font-family: arial;
+margin: 50px;
+-webkit-text-stroke-width: 0px; /* largura da borda */
+-webkit-text-stroke-color: rgb(255, 255, 255); /* cor da borda */
+font-size:35px;
+color:orangered;
+}
+
+button {
+    padding: 10px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    font-weight: 400;
+    font-size: 20px;
+    transition: all 0.2s ease 0s;
+}
+
+button:hover{
+    background-color: grey;
+    color:white;
+}
+
+
+h1,h3{
+    color:white;
+}
+
+h1{
+    font-size:35px;
+    font font-family: Arial;
+    color:orangered;
+}
+
+h3{
+    font-size: 25px;
+}
+
+form {
+    margin: ;
+    margin-top: 22px;
+    margin-bottom: 100px;
+    display:inline-block;
+    color:white;
+    background-color: orangered;
+    border-radius: 30px;
+    padding: 9px 25px;
+    border: none;
+    width: 550px;
+}
+
+label{
+    background-color: orangered;
+    color: white;
+
+}
+
+p{
+    color:black;
+}
+.in{
+    font-weight: 400;
+    font-size: 15px;
+    color:black;
+    padding: 7px 22px;
+    background-color: white;
+    border: none;
+    width: 300px;
+    margin-top: 8px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius:7px;
+    }
+
+    #grid_campeoes {
+        display: grid;
+        place-items: center;
+    }
+    #banner_campeoes{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: white;
+        border-radius: 10px;
+        margin-bottom: 100px;
+    }
+    .campeoes {
+        flex: 0 1 215px;
+        margin: 25px;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+    }
+    .campeoes img {
+        border-radius: 8px;
+        max-width: 215px;
+        max-height: 275px;
+    }
+    
+    #tony{
+        height: 140px;
+        width: 200px;
+        
+    } 
+    
+    #augusto{
+        height: 140px;
+        width: 200px;
+    }
+    
+    #hericles{
+        height: 140px;
+        width: 200px;
+    }
+    
+    #luiz{
+        height: 140px;
+        width: 200px;
+    }
+    
+    #pedro{
+        height: 140px;
+        width: 200px;
+    }
+     
+    .col-50{
+        width: 50%;
+        margin-right: 35px;
+        margin-left: 35px;
+        margin-top: 100px;
+    }
+    
+ @media screen and (max-width: 590px) {
+        body{
+            background-image: url(pista.jpg);
+            background-color: grey;
+            background-attachment: fixed;
+        }
+    
+        li {
+            justify-content: space-between;
+        }
+    
+    
+        h1{
+            font-size:30px;
+        }
+        
+        h3{
+            font-size: 15px;
+        }
+    
+        form {
+            display:inline-block;
+            color:white;
+            background-color: orangered;
+            border-radius: 25px;
+            padding: 9px 25px;
+            border: none;
+            width: 300px;
+            height: 100%; 
+        }
+        .tituloform{
+        margin:90px;
+        margin-top: 20px;
+        font font-family:Arial;
+        color:orangered;
+        }
+
+        #banner_campeoes{
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: white;
+        border-radius: 10px;
+        }
+    
+        .inicio{
+        background-image: url(banner3.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+    
+        margin-top: 200px;
+        margin-left:20px;
+        margin-right:20px;
+    
+        width: 450px;
+        height: 200px;  
+    }
+    
+    .menu_um{
+        position: fixed; /* fixo na tela, usar com moderacao */
+        left: 0;
+        top: 0;
+        width: 100%;
+        margin:0;
+        background-color:white;
+        text-align: center; /* alinhamento do rodape*/
+    }
+    
+    .menu_um a{
+        display: block;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+    }
+    
+    .in{
+        font-weight: 400;
+        font-size: 15px;
+        color:black;
+        padding: 9px 25px;
+        background-color: white;
+        border: none;
+        width: 200px;
+        border-radius: 50px;
+    }
+    
+    #tony{
+        height: 150px;
+        width: 200px;
+    }
+    
+    #augusto{
+        height: 150px;
+        width: 200px;
+    }
+    
+    #hericles{
+        height: 150px;
+        width: 200px;
+    }
+    
+    #luiz{
+        height: 150px;
+        width: 200px;
+    }
+    
+    #pedro{
+        height: 150px;
+        width: 200px;
+    }
+    
+    
+}
